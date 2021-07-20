@@ -10,11 +10,11 @@ const Demo = () => {
       <div className="w-full h-full">
         <Header />
         <div className="w- full flex flex-row">
-          <div className="flex flex-col w-10/12">
+          <div className="flex flex-col w-11/12">
             <Login />
             <SingIng />
           </div>
-          <div className="w-2/12">
+          <div className="w-1/12">
             <Contact />
           </div>
         </div>
