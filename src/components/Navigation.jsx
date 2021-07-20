@@ -4,11 +4,11 @@ const Navigation = () => {
   return (
     <>
       <div className="flex flex-col justify-center w-1/4 mx-auto">
-        <div className="flex flex-row justify-center"><p>asdasd</p></div>
+        <div className="flex flex-row justify-center"><p>Envios a todo Mexico</p></div>
         <div>
           <div className="flex flex-row justify-center">
-            <div>1</div>
-            <div>2</div>
+            <div className="mx-2" >Obras</div>
+            <div className="mx-2" >Artistas</div>
           </div>
         </div>
       </div>
