@@ -21,22 +21,22 @@ const SingIng = () => {
             </p>
             <label className="text-center my-2">Nombre compelto</label>
             <input
-              className="my-2 w-1/2 mx-auto border-2 border-gray-200 rounded-md"
+              className="my-2 w-full lg:w-1/2 mx-auto border-2 border-gray-200 rounded-md"
               type="text"
             />
             <label className="my-2 text-center">Correo</label>
             <input
-              className="my-2 w-1/2 mx-auto border-2 border-gray-200 rounded-md"
+              className="my-2 w-full lg:w-1/2mx-auto border-2 border-gray-200 rounded-md"
               type="text"
             />
             <label className="my-2 text-center">Contraseña</label>
             <input
-              className="my-2 w-1/2 mx-auto border-2 border-gray-200 rounded-md"
+              className="my-2 w-full lg:w-1/2mx-auto border-2 border-gray-200 rounded-md"
               type="text"
             />
             <label className="my-2 text-center">Repetir Contraseña</label>
             <input
-              className="my-2 w-1/2 mx-auto border-2 border-gray-200 rounded-md"
+              className="my-2 w-full lg:w-1/2mx-auto border-2 border-gray-200 rounded-md"
               type="text"
             />
             <div className="w-full lg:w-1/2 mx-auto">
@@ -54,7 +54,7 @@ const SingIng = () => {
                 </strong>
               </label>
             </div>
-            <button className="w-1/4 mx-auto p-4 bg-pink-400 my-2">
+            <button className="w-full lg:w-1/4 mx-auto p-4 bg-pink-400 my-2">
               Crear cuenta
             </button>
           </form>
@@ -68,7 +68,7 @@ const SingIng = () => {
               Crea una cuenta para comprar y conocer las obras de diferentes
               artistas
             </p>
-          <button className="w-1/4 mx-auto p-4 bg-pink-400 my-2">
+          <button className="w-full lg:w-1/4 mx-auto p-4 bg-pink-400 my-2">
             Crear cuenta
           </button>
         </div>
