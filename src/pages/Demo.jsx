@@ -9,7 +9,7 @@ const Demo = () => {
     <>
       <div className="w-full h-full">
         <Header />
-        <div className="w-full flex flex-row">
+        <div className="w-full flex flex-col lg:flex-row">
           <div className="flex flex-col w-11/12">
             <Login />
             <SingIng />

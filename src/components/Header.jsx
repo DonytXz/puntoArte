@@ -6,7 +6,7 @@ import Options from "./Options";
 const Header = () => {
   return (
     <>
-      <div className="bg-indigo-900 p-12 w-full flex flex-row">
+      <div className="bg-indigo-900 p-12 w-full flex flex-col lg:flex-row">
         <Logo />
         <Navigation />
         <Options />

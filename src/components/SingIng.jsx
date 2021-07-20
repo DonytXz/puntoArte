@@ -8,8 +8,8 @@ const SingIng = () => {
       <p className="p-b-6 text-gray-500  text-2xl text-center my-4">
         Crear <strong className="font-bold">cuenta</strong>
       </p>
-      <div className="w-full flex flex-row mt-6">
-        <div className="w-1/2  border-r-2">
+      <div className="w-full flex flex-col lg:flex-row mt-6">
+        <div className="w-full lg:w-1/2  lg:border-r-2">
           <form action="" className=" p-16 mx-auto flex flex-col">
             <img className="w-1/6 mx-auto" src={SearchImg} alt="" srcset="" />
             <p className="p-b-6 text-gray-500  text-2xl text-center my-4">
@@ -39,7 +39,7 @@ const SingIng = () => {
               className="my-2 w-1/2 mx-auto border-2 border-gray-200 rounded-md"
               type="text"
             />
-            <div className="w-1/2 mx-auto">
+            <div className="w-full lg:w-1/2 mx-auto">
               <input type="checkbox" id="cbox1" value="first_checkbox" />
               <label className="text-gray-400">
                 Al registrarme, acepto las

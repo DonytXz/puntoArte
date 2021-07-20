@@ -7,7 +7,7 @@ import Profile from "../assets/icons/profile.png";
 const Options = () => {
   return (
     <>
-      <div className="w-1/4  grid grid-cols-4 gap-0">
+      <div className="w-1/4 mx-auto mt-2 grid grid-cols-4 gap-0">
         <div>
           <img src={Search} alt="" srcset="" />
         </div>
